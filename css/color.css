@@ -1,0 +1,33 @@
+::-moz-selection {
+    background: #ff2384;
+}
+
+::selection {
+    background: #ff2384;
+}
+
+.welcome-action .notify, .sidePanel-container h3,
+.sidePanel-container h4, .sidePanel-container h4,
+.sidePanel-container p, .get_in_touch_block .title,
+#notifywhenready input[type=email] {
+    color:#ff2384;
+}
+
+.form_container .submit_msg {
+    background: rgba(255, 35, 132, 1)
+}
+
+.form_container .submit_msg:hover {
+    background: rgba(255, 35, 132, .5)
+}
+
+#notifywhenready input[type=submit] {
+    background: #ff2384;
+    border: 5px solid #ff2384;
+}
+
+#notifywhenready input[type=submit]:hover {
+    background: #fff;
+    border-color: #ff2384;
+    color: #ff2384;
+}
